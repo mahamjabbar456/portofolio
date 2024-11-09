@@ -38,11 +38,6 @@ const Stats = () => {
     //     })
     // },[])
 
-    const reverseIndex = (index:number) => {
-        const totalSteps = 4;
-        return totalSteps - index;
-    }
-
   return (
     <section className="pt-4 pb-12 lg:pt-8">
         <div className="container mx-auto">

@@ -1,9 +1,6 @@
 import Link from "next/link";
 import { ComponentType } from "react";
 import {FaGithub,FaLinkedin,FaTwitter} from "react-icons/fa";
-import { IconType } from "react-icons/lib";
-import {SiVercel} from "react-icons/si"
-
 interface link {
     icons: ComponentType;
     path:string;

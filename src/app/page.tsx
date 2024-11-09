@@ -42,7 +42,7 @@
              animate="visible"
              transition={{duration:0.6, delay:2}}
              >
-               Hello I'm <br /> <span className="text-mainAccent-hover">Maham Jabbar</span>
+               Hello I&apos;m <br /> <span className="text-mainAccent-hover">Maham Jabbar</span>
              </motion.h1>
              <motion.p className="max-w-[600px] mb-9 text-gray-700"
              variants={textVariants}

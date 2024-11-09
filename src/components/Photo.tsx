@@ -5,17 +5,6 @@ import Image from "next/image";
 import myPic from "../../public/myportfoliopic.png";
 
 const Photo = () => {
-    // Define the circle animation variants
-    const circleVariants = {
-        hidden: { strokeDashoffset: 1000 },
-        visible: {
-            strokeDashoffset: 0,
-            transition: {
-                duration: 2,
-                ease: "easeInOut"
-            }
-        }
-    };
 
     return (
         <div className="h-full w-full relative flex items-center justify-center lg:-top-9 -top-5">

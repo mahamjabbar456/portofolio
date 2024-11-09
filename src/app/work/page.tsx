@@ -3,7 +3,7 @@ import {Swiper,SwiperSlide} from "swiper/react"
 import { Swiper as SwiperClass } from "swiper/types"; 
 import "swiper/css";
 import {BsArrowUpRight,BsGithub} from "react-icons/bs";
-import { ComponentType, useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import Link from "next/link";

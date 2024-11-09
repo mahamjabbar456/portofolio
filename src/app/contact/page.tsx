@@ -51,8 +51,8 @@ const Contact = () => {
           }}
           className="lg:w-[54%] order-2 lg:order-none">
             <form className="flex flex-col gap-6 p-10 bg-[#cbd6f0] rounded-xl">
-              <h3 className="text-4xl text-mainAccent-hover">Let's work together</h3>
-              <p className="text-gray-700">Let's work together to bring your vision to life.Let's create something great together.</p>
+              <h3 className="text-4xl text-mainAccent-hover">Let&apos;s work together</h3>
+              <p className="text-gray-700">Let&apos;s work together to bring your vision to life.Let&apos;s create something great together.</p>
               {/* input */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Input type="text" placeholder="Firstname" />
