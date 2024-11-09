@@ -10,6 +10,7 @@ const config: Config = {
   theme: {
 	container:{
 		center:true,
+		padding:"15px",
 	},
 	fontFamily:{
 		primary:"var(--font-poppins)"
@@ -34,6 +35,7 @@ const config: Config = {
 			mainSecondary:"#3D52A0",
 			mainAccent:{
 				hover:"#7091E6",
+				hover2:"#709FEE"
 			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

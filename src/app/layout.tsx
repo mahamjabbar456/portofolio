@@ -21,14 +21,17 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-}) {
+}) 
+{
+
   return (
     <html lang="en">
       <body
         className={`${poppins.variable} antialiased`}
       >
         <Header />
-        <StairTransition />
+        <StairTransition />   
+        
         <PageTransition>{children}</PageTransition>
       </body>
     </html>
