@@ -51,7 +51,7 @@ const Stats = () => {
                             duration:0.6, delay:1.2+index
                         }
                     }}
-                    className="flex flex-1 gap-4 items-center justify-center lg:justify-start"
+                    className="flex flex-1 md:gap-4 gap-2 items-center justify-center lg:justify-start"
                     key={index}>
                        <CountUp end={item.num} duration={5} delay={2} className="text-4xl lg:text-6xl font-extrabold" />
                        <p
