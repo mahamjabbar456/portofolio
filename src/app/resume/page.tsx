@@ -5,8 +5,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { ComponentType } from "react";
-import {FaHtml5,FaCss3,FaJs,FaGithub,FaFigma} from "react-icons/fa"
-import {SiTypescript,SiNextdotjs,SiTailwindcss} from "react-icons/si"
+import {FaHtml5,FaCss3,FaJs,FaGithub,FaFigma,FaPhp,FaBootstrap} from "react-icons/fa"
+import {SiTypescript,SiNextdotjs,SiTailwindcss,SiMysql} from "react-icons/si"
 import EducationIcon from "../../../public/assets/resume/cap.svg";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 
@@ -24,7 +24,7 @@ interface aboutType {
 // about
 const about:aboutType = {
   title:"Maham Jabbar",
-  description:"Maham Jabbar is a WordPress developer and front-end specialist with expertise in SEO, creating optimized and user-friendly websites that perform well in search rankings.",
+  description:"Full-Stack Developer with a Bachelor’s degree in Computer Science and a strong foundation in modern web technologies. Skilled in HTML5, CSS3, Bootstrap, JavaScript, Ajax, PHP, and MySQL, with proven expertise in developing responsive, user-friendly, and efficient web applications. Highly motivated to contribute technical knowledge and problem-solving abilities to adynamic software house while continuously enhancing professional growth.",
   information : [
     {
       fieldName:"Name",
@@ -36,15 +36,15 @@ const about:aboutType = {
     },
     {
       fieldName:"Experience",
-      fieldValue:"1 year in Wordpress"
+      fieldValue:"2 year as Full stack Developer"
     },
     {
       fieldName:"Nationality",
       fieldValue:"Pakistani"
     },
     {
-      fieldName:"Freelance",
-      fieldValue:"Available"
+      fieldName:"Available",
+      fieldValue:"Freelance + Onsite"
     },
     {
       fieldName:"Language",
@@ -80,16 +80,11 @@ const education:EducationType = {
     {
       institution:"Govt PostGraduate College, Jhang",
       degree:"BS (Computer Science)",
-      duration:"Completed in 2025(Continue)"
+      duration:"Completed in 2025"
     },
     {
       institution:"DigiSkills.pk",
       degree:"Certified WordPress Development",
-      duration:"3 month course completed in 2023"
-    },
-    {
-      institution:"DigiSkills.pk",
-      degree:"Certified SEO",
       duration:"3 month course completed in 2023"
     },
     {
@@ -154,6 +149,18 @@ const skill:skillType = {
     {
       icon: FaGithub,
       name: "Github"
+    },
+    {
+      icon: FaPhp,
+      name: "PHP"
+    },
+    {
+      icon: SiMysql,
+      name: "Mysql"
+    },
+    {
+      icon: FaBootstrap,
+      name: "Bootstrap"
     },
   ]
 }

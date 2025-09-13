@@ -14,24 +14,18 @@ interface service {
 const services: service[] = [
   {
     num: "01",
+    title: "Full Stack Developer",
+    description: "Skilled in HTML5, CSS3, Bootstrap, JavaScript, Ajax, PHP, and MySQL, with proven expertise in developing responsive, user-friendly, and efficient web applications.",
+    href: ""
+  },
+  {
+    num: "02",
     title: "WordPress Developer",
     description: "A WordPress Developer specializes in building, customizing, and maintaining websites on the WordPress platform, using skills in PHP, HTML, CSS, and JavaScript to enhance functionality and user experience.",
     href: ""
   },
   {
-    num: "02",
-    title: "Search Engine Optimization(SEO)",
-    description: "SEO (Search Engine Optimization) is the practice of optimizing websites and content to improve their visibility on search engines, driving organic traffic through targeted keywords and high-quality, relevant content.",
-    href: ""
-  },
-  {
     num: "03",
-    title: "Front End Developer",
-    description: "A Front-End Developer builds the visual and interactive elements of websites and applications, using HTML, CSS, and JavaScript to create user-friendly and responsive designs.",
-    href: ""
-  },
-  {
-    num: "04",
     title: "Nextjs Developer",
     description: "A Next.js Developer specializes in building fast, server-rendered React applications using the Next.js framework, focusing on performance, scalability, and optimized SEO for seamless user experiences.",
     href: ""

@@ -35,7 +35,7 @@
              initial="hidden"
              animate="visible"
              transition={{duration:0.6, delay:1.5}}
-             >Front end Developer</motion.span>
+             >Full Stack Developer</motion.span>
              <motion.h1 className="h1 mb-5"
              variants={textVariants}
              initial="hidden"
@@ -50,7 +50,7 @@
              animate="visible"
              transition={{duration:0.6, delay:2.5}}
              >
-               I excel at crafting elegant digital experiences and I am proficient in various programming language and technologies.</motion.p>
+               Full-Stack Developer with a Computer Science degree, skilled in modern web technologies and passionate about building responsive, user-friendly, and efficient applications.</motion.p>
              <div className="flex flex-col lg:flex-row items-center gap-8">
               <motion.div
               variants={textVariants}
@@ -59,7 +59,7 @@
               transition={{duration:0.6, delay:3}}
               >
               <Button variant="outline" size="lg" className="uppercase">
-                 <Link href="/" className="flex items-center gap-2">
+                 <Link href="https://drive.google.com/file/d/1hfOvJe1bIAczj4ldqSrF-FSRm_HAsQsK/view?usp=drive_link" className="flex items-center gap-2">
                      <span>Download CV</span>
                      <FiDownload className="text-lg" />
                  </Link>
